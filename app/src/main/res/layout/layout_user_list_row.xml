@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0277BD">
+
+    <TextView
+        android:id="@+id/layout_user_role"
+        android:layout_width="229dp"
+        android:layout_height="21dp"
+        android:layout_below="@+id/layout_user_mail"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/layout_user_img"
+        android:text="TextView"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <ImageView
+        android:id="@+id/layout_user_img"
+        android:layout_width="121dp"
+        android:layout_height="92dp"
+        android:outlineAmbientShadowColor="@color/white"
+        app:srcCompat="@drawable/men"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/layout_user_fullname"
+        android:layout_width="229dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="9dp"
+        android:layout_toEndOf="@+id/layout_user_img"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/layout_user_mail"
+        android:layout_width="229dp"
+        android:layout_height="21dp"
+        android:layout_below="@+id/layout_user_fullname"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/layout_user_img"
+        android:text="TextView"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <ImageView
+        android:id="@+id/layout_user_removeImg"
+        android:layout_width="46dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/layout_user_fullname"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="-9dp"
+        android:layout_toEndOf="@+id/layout_user_fullname"
+        android:foregroundTint="#BA1D1D"
+        app:srcCompat="@drawable/delete"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="30dp" />
+</RelativeLayout>

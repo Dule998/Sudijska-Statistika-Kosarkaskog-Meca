@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MatchStatisticsActivity">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout_main"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meč" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem_hostTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Domaćin" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem_guestTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gost" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_matchStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

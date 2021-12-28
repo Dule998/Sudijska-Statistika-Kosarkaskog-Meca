@@ -1,0 +1,295 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.MatchStatisticsMainFragment">
+
+    <ImageView
+        android:id="@+id/fr_ms_team1Logo"
+        android:layout_width="105dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/ddaa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_asists2"
+        android:layout_width="109dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toEndOf="@+id/fr_ms_statistic_textView4"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_statistic_jumps2" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_fouls2"
+        android:layout_width="109dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toEndOf="@+id/fr_ms_statistic_textView3"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_statistic_mvp2" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_jumps1"
+        android:layout_width="109dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/fr_ms_statistic_textView2"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_statistic_fouls1" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_asists1"
+        android:layout_width="109dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/fr_ms_statistic_textView2"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_statistic_jumps1" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_fouls1"
+        android:layout_width="109dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/fr_ms_statistic_textView2"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_statistic_mvp1" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_mvp2"
+        android:layout_width="135dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Ime i prezime"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/fr_ms_statistic_textView2"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_statistic_textView" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_mvp1"
+        android:layout_width="135dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="32dp"
+        android:text="Ime i prezime"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/fr_ms_statistic_textView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_statistic_textView" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_textView4"
+        android:layout_width="132dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="Asistencije"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_statistic_textView5" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_textView5"
+        android:layout_width="132dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="Skokovi"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_statistic_textView3" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_textView3"
+        android:layout_width="132dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="Faulovi"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_statistic_textView2" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_textView2"
+        android:layout_width="132dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="32dp"
+        android:text="MVP"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_statistic_textView" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_textView"
+        android:layout_width="132dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="232dp"
+        android:text="Statistika"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_matchDate"
+        android:layout_width="178dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="22.12.2021. 15:30"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_judge"
+        android:layout_width="178dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:text="Ime i Prezime"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toEndOf="@+id/fr_ms_statistic_matchDate"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fr_ms_resultDots"
+        android:layout_width="18dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="84dp"
+        android:text=":"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/fr_ms_team2score"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/fr_ms_team1score"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fr_ms_team2score"
+        android:layout_width="76dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="84dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/fr_ms_team2Logo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/fr_ms_team2Logo"
+        android:layout_width="105dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ddaa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fr_ms_team1score"
+        android:layout_width="76dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="84dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/fr_ms_team1Logo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fr_ms_team1_name"
+        android:layout_width="165dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_team1Logo" />
+
+    <TextView
+        android:id="@+id/fr_ms_team2_name"
+        android:layout_width="165dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="TextView"
+        android:textAlignment="viewEnd"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_team2Logo" />
+
+    <TextView
+        android:id="@+id/fr_ms_statistic_jumps2"
+        android:layout_width="109dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/fr_ms_statistic_textView5"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_statistic_fouls2" />
+
+    <Button
+        android:id="@+id/save_match_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Save match"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fr_ms_statistic_textView4"
+        app:layout_constraintVertical_bias="0.034" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

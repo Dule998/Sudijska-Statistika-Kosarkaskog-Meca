@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6A64FFDA">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_ps_name"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:text="Faulovi" />
+
+    <TextView
+        android:id="@+id/layout_ps_name"
+        android:layout_width="207dp"
+        android:layout_height="35dp"
+        android:text="TextView"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_ps_name"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="-33dp"
+        android:layout_toEndOf="@+id/layout_ps_name"
+        android:text="Poeni" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_ps_name"
+        android:layout_marginTop="11dp"
+        android:text="Skokovi" />
+
+    <EditText
+        android:id="@+id/layout_ps_foults_textEdits"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@+id/layout_ps_jumps_textEdit"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-2dp"
+        android:ems="10"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/layout_ps_points_textEdit"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="-21dp"
+        android:ems="10"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:textAlignment="center"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/layout_ps_jumps_textEdit"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="3dp"
+        android:ems="10"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+</RelativeLayout>
